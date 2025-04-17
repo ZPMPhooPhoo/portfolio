@@ -13,13 +13,13 @@ export function ProjectSection() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "My Portflio",
       description:
         "A fully responsive e-commerce platform with cart functionality and payment integration",
       image: "https://placehold.co/500x300",
       tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
-      liveUrl: "https://example.com/ecommerce",
-      githubUrl: "https://github.com/username/ecommerce",
+      liveUrl: "https://zinphoomon.vercel.app/",
+      githubUrl: "https://github.com/ZPMPhooPhoo/portfolio",
     },
     {
       id: 2,
