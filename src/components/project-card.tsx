@@ -1,5 +1,6 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import image from "@/assets/images/images.jpg";
 
 interface Project {
   id: number;
@@ -18,7 +19,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
     <Card className="overflow-hidden bg-gray-900/50 border-gray-800 hover:border-pink-500/50 transition-all duration-300 h-full flex flex-col">
       <div className="relative h-48 w-full overflow-hidden">
         <img
-          src={project.image || "/placeholder.svg"}
+          src={image || "/placeholder.svg"}
           alt={project.title}
           className="object-cover transition-transform duration-500 hover:scale-110"
         />

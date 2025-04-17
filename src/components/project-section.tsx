@@ -1,3 +1,4 @@
+import image from "@/assets/images/images.jpg";
 interface Project {
   id: number;
   title: string;
@@ -74,7 +75,7 @@ function ProjectCard({ project }: { project: Project }) {
     <div className="overflow-hidden bg-gray-900/50 border border-gray-800 hover:border-pink-500/50 transition-all duration-300 h-full flex flex-col rounded-lg">
       <div className="relative h-56 w-full overflow-hidden">
         <img
-          src={project.image || "/placeholder.svg"}
+          src={image || "/placeholder.svg"}
           alt={project.title}
           className="object-cover w-full h-full transition-transform duration-500 hover:scale-110"
         />

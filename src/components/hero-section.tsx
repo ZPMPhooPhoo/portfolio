@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { SocialIcons } from "@/components/social-icons";
+import profile from "@/assets/images/ChatGPT_Image_Apr_18_2025_12_18_22_AM.webp";
 
 export function HeroSection() {
   return (
@@ -19,7 +20,7 @@ export function HeroSection() {
 
         <div className="relative w-64 h-64 md:w-80 md:h-80 mb-8">
           <img
-            src="/placeholder.svg?height=320&width=320"
+            src={profile}
             alt="Zin Phoo Mon portrait"
             width={320}
             height={320}
