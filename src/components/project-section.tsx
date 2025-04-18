@@ -16,7 +16,7 @@ export function ProjectSection() {
       title: "My Portflio",
       description:
         "A fully responsive e-commerce platform with cart functionality and payment integration",
-      image: "https://placehold.co/500x300",
+      image: "/portfolioimage.png",
       tags: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
       liveUrl: "https://zinphoomon.vercel.app/",
       githubUrl: "https://github.com/ZPMPhooPhoo/portfolio",
@@ -75,7 +75,7 @@ function ProjectCard({ project }: { project: Project }) {
     <div className="overflow-hidden bg-gray-900/50 border border-gray-800 hover:border-pink-500/50 transition-all duration-300 h-full flex flex-col rounded-lg">
       <div className="relative h-56 w-full overflow-hidden">
         <img
-          src={image || "/placeholder.svg"}
+          src={project.image || "/placeholder.svg"}
           alt={project.title}
           className="object-cover w-full h-full transition-transform duration-500 hover:scale-110"
         />
