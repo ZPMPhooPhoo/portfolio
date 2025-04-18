@@ -49,7 +49,7 @@ export function WorkSection() {
   ];
 
   return (
-    <section className="py-20 bg-black px-20" id="work">
+    <section className="py-20 bg-black md:px-20" id="work">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-500">
           WORK/PROJECTS
